@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4113B6A9-7D74-585F-A2EB-7E67F501A021" name="address">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>B0D6CFA4-ED4C-A4E2-334D-58E2B6F45239</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="addressid" id="C8B741F3-EB87-CE67-7C28-8D98B1A212EC">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>8054D6A7-9ED5-E79E-7F8F-03C4A9C0EF35</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addressno" id="6E621315-7B01-A5F5-F511-DCEA432375A9">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>56EECF2D-711F-4AAB-33ED-E1EF3F2F8919</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EFF0D11E-3B8D-BB97-6F8A-AD8A91F6DAE9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="E06073B2-84A0-33D6-22C8-067E8FFE8001">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>0F178B46-451A-9915-C74E-498210CB7691</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF579FDE-6362-8D38-0380-42D09E1A3003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alley" id="A5805DCB-C897-9509-2613-7046B74F3238">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>D721084E-E640-CD79-5940-4A8A34466F19</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF579FDE-6362-8D38-0380-42D09E1A3003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subdistrict" id="77D77FD2-EF29-DE00-50AD-AD87A1A72B3B">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>DACAEA38-5787-D246-3366-A2FC5DB5495D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF579FDE-6362-8D38-0380-42D09E1A3003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="district" id="33E092CF-9ED4-B9F4-7A34-8C9BFB4BBD5F">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>ED963000-3481-EC74-F218-1F5849B2479C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF579FDE-6362-8D38-0380-42D09E1A3003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="province" id="1E478D57-8BA4-7BB7-F14C-ADA91EDF9C49">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>2114632B-3537-17F0-FBA4-E22565CAE654</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF579FDE-6362-8D38-0380-42D09E1A3003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postcode" id="45154A59-0592-9566-6ED4-0482BB5B561C">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>0207FB3E-C60E-1485-323E-A7982DD06CDE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EFF0D11E-3B8D-BB97-6F8A-AD8A91F6DAE9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customerid" id="1491CF27-D6F2-44D9-2AD9-A1FD8464C2F8">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>2D229928-2D47-6CBF-C611-D3C7B1A9294F</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE57CD6B-A032-1AA9-F75E-2F54A8A04A43" referredColumn="E71263C3-589F-A5E9-A5A9-DA7AB662C91A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2F9F9E2-5BE2-978F-1028-4D5DDFC9D89A" name="address_pk">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>97F0C303-1C07-5F6B-3EE5-B0EEB7F74981</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8B741F3-EB87-CE67-7C28-8D98B1A212EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72DCD722-BCD2-9C9D-2EF4-021F1F260FDE" name="address_customer_fk">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1491CF27-D6F2-44D9-2AD9-A1FD8464C2F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

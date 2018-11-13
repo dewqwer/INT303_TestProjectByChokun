@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="productreview" directorySegmentName="seg_0" id="78965A19-BE2B-ABBC-4E17-E008B4FA2CA2">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="rating" id="22A1E0CD-CD66-D480-9A4D-5CD619A1CDC0">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="comment" id="445EFAD9-9D98-2E95-AC71-BE9F2556D237">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="reviewid" id="B0DD9B1E-DF37-247B-0DD1-F2DE4615E9BB">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customerid" id="E16E2A49-B93C-CB13-6CF8-A4D4053F4973">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="isbn" id="F93208D6-ABC7-F626-FC05-C821689B0DCF">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="productreview_book_fk" id="1E869C94-EC20-2843-3FCF-6755953125A2">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="productreview_customer_fk" id="30BDFC4E-5A80-EE80-478E-6162C0735F1E">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="productreview_pk" id="47062106-5849-D7EA-584E-41930311E65F">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="270BC5E4-F5C7-B8F6-0421-BBE93242791B" name="address">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:30 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>32D86F8B-5153-B527-6F5A-73A422F89FA6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="addressid" id="24B15B2F-D828-CD95-6507-D7E9EE864CDA">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>5FFECDC4-8535-1759-08C1-213320AED01F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addressno" id="C31E50F7-D785-1B9C-A259-5EC05909696E">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>6AB026B4-DD01-8302-0EBF-CBC40398CD3D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="FB520260-BF6C-C57F-B099-DEA7D919D7B7">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>0DC92BC1-5AD3-B7A2-9780-82DF942BF5A2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alley" id="3D036D11-954B-031C-E312-E6C01EF68DC8">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>981B7808-AD5B-A0EF-37E8-2A8CFDF5C1B9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subdistrict" id="4AD8B34C-1AB5-65EE-06CD-4DE02A7DD278">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>642953D8-F35A-21DD-74A4-A9A69B56C28C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="district" id="AE22D21F-0D7B-DAF7-B908-955BE8F6F29C">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>DB5E7DFF-1CFF-085E-8412-E1F4FBBC9955</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="province" id="D6E56369-733C-286F-59AC-B0AC7AB286F1">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>1DAB661D-9851-A6D6-440D-DC1B22434420</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postcode" id="1EB30BF1-C7AB-73DF-FFA2-4FF073A9AFA4">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>66B4B76D-7E9A-AE07-C852-BE4FDEA01B20</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_customerid" id="6F5EB0B3-B240-1C40-EDAF-D0FF72FC25FF">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>AA4B4CE0-E178-4AF4-58B2-514D0FBD1BE1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32DE61A8-7EE8-3D31-5AF4-1867E17D0972" referredColumn="98126E5B-A84D-A407-80BC-7F5868DFC738"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8290F808-E25F-7B90-E787-58773FEC819D" name="address_PK">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>A49D8645-590F-A408-8D71-371C0DFDE58A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24B15B2F-D828-CD95-6507-D7E9EE864CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC074342-857B-10B7-0EAF-5167D3611862" name="address_customer_FK">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F5EB0B3-B240-1C40-EDAF-D0FF72FC25FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

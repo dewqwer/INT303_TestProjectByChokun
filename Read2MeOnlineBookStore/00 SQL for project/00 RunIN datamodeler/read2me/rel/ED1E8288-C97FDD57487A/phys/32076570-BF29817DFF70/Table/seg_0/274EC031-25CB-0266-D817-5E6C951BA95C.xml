@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="book" directorySegmentName="seg_0" id="274EC031-25CB-0266-D817-5E6C951BA95C">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="isbn" id="00DED357-D3A9-FA21-9FD8-C84008BB689B">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="category" id="055C0B01-9AE8-E182-2F28-22446BE59E7C">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="description" id="A56A3DC6-F723-F3A2-C2BB-374AB8927971">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="unitpriceperone" id="AFD12F61-9E92-7CE9-A381-C1AD2CC30235">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="salegroup" id="D31137B9-1512-23D8-5F4B-7911C06AFC7F">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="author" id="E12EB3E9-5BA6-A366-297E-BF442D691A71">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="title" id="FD470D9D-644D-CCB3-7751-7148CA08C16A">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="publisher" id="FF4BDF0C-8480-868F-C313-5BF55BFF57F9">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="book_PK" id="5656248A-4197-DC92-1BAA-B898B6730961">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="book_title_UN" id="2CD3AE32-D599-D025-2486-4F06342B56A2">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

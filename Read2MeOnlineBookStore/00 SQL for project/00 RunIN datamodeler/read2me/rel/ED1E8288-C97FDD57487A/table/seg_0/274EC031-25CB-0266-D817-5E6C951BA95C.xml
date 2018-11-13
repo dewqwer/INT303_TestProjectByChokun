@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="274EC031-25CB-0266-D817-5E6C951BA95C" name="book">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>0D84451E-0EB7-F97D-5F92-91DD4AECD62E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="isbn" id="00DED357-D3A9-FA21-9FD8-C84008BB689B">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>03A1993D-1B21-4912-3E07-FDEC00727DAA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="FD470D9D-644D-CCB3-7751-7148CA08C16A">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>101EDCEC-FD0F-9640-C460-246916E58531</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="author" id="E12EB3E9-5BA6-A366-297E-BF442D691A71">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>6D87DAB2-D7C0-8000-D31D-B0EABA30794E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="A56A3DC6-F723-F3A2-C2BB-374AB8927971">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>501E76AC-E669-3C55-1252-C9D9807F1BD2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="publisher" id="FF4BDF0C-8480-868F-C313-5BF55BFF57F9">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>F163415C-FAD4-DDB1-6B7A-250371CBD53C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category" id="055C0B01-9AE8-E182-2F28-22446BE59E7C">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>36655E7F-3B2E-4D24-2D20-62E325846307</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unitpriceperone" id="AFD12F61-9E92-7CE9-A381-C1AD2CC30235">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>9EDBE57D-16DF-31CE-75EB-0BC48845457E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salegroup" id="D31137B9-1512-23D8-5F4B-7911C06AFC7F">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>E96C4838-F61D-53F3-64BF-281AF6A54F71</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5656248A-4197-DC92-1BAA-B898B6730961" name="book_PK">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>D538AFD1-6CB6-DAF4-E691-045C0D5BB3D5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00DED357-D3A9-FA21-9FD8-C84008BB689B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CD3AE32-D599-D025-2486-4F06342B56A2" name="book_title_UN">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>FAD96858-052F-6B32-7B59-5A81C18DEA7B</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD470D9D-644D-CCB3-7751-7148CA08C16A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

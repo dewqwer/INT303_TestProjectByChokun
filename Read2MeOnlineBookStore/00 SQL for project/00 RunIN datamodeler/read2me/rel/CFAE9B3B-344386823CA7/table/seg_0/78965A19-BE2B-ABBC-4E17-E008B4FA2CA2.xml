@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78965A19-BE2B-ABBC-4E17-E008B4FA2CA2" name="productreview">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>6811407F-295E-55B8-B199-8439E6A78B9E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reviewid" id="B0DD9B1E-DF37-247B-0DD1-F2DE4615E9BB">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>5DB8D426-88D2-685D-A28D-85C431F0D7F3</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment" id="445EFAD9-9D98-2E95-AC71-BE9F2556D237">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>38E9FA6F-6CFD-179C-F190-9977066488A1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>940B1731-D547-B289-1E02-87DC16DAAD81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="22A1E0CD-CD66-D480-9A4D-5CD619A1CDC0">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>56D3243C-7585-7286-A6FC-EED2D7AD2D8F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>56E23E0A-8902-4B2D-0883-919AF3CE073D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isbn" id="F93208D6-ABC7-F626-FC05-C821689B0DCF">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>994D401C-08B8-F03F-A431-576C9D0BEDB9</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF65BB18-2C25-07DC-7AAA-85F4F9584556" referredColumn="5656CADC-48BB-36BD-DAE7-4BF3AC9050C9"/>
+</associations>
+</Column>
+<Column name="customerid" id="E16E2A49-B93C-CB13-6CF8-A4D4053F4973">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>4568441D-E414-022D-68A0-ECAFD4543E71</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0D07F38-E9F4-BCE4-D4B3-AEFBB429A0AA" referredColumn="E71263C3-589F-A5E9-A5A9-DA7AB662C91A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47062106-5849-D7EA-584E-41930311E65F" name="productreview_pk">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>AE125A62-7BF8-AEC7-7AF7-47EF7F034396</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0DD9B1E-DF37-247B-0DD1-F2DE4615E9BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E869C94-EC20-2843-3FCF-6755953125A2" name="productreview_book_fk">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F93208D6-ABC7-F626-FC05-C821689B0DCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30BDFC4E-5A80-EE80-478E-6162C0735F1E" name="productreview_customer_fk">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E16E2A49-B93C-CB13-6CF8-A4D4053F4973"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

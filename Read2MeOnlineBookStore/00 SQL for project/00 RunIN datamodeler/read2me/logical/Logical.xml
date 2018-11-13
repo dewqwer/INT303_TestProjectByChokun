@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6EEA99DA-65CD-F386-100D-1F0952976DAE" mainViewID="B84C75D2-1FAD-DD05-A123-1B60F0D30CCE">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:00 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

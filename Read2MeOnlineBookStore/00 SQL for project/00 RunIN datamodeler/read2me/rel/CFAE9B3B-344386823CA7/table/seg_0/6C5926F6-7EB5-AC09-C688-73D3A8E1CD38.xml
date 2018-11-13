@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C5926F6-7EB5-AC09-C688-73D3A8E1CD38" name="lineitem">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>8B93593E-024C-9E4A-4EDF-351B14362973</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="quantity" id="43BF002F-54AB-5F5A-FB80-B5CF925E55F2">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>6CB231F8-06EB-9196-8E19-1F93552D81EE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>56E23E0A-8902-4B2D-0883-919AF3CE073D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="totalpricelineitem" id="6FF762CE-D216-E482-28B3-DB588B089A78">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>B1043E76-5689-1141-6DD3-71214C35BB7C</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderid" id="73BD65C4-8DDB-00F8-B6BC-BF5BC24881BB">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>AC8A9E77-F6D6-13EB-5E47-B2EF64C974BA</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F015871-040A-12ED-1C8D-728ED3227844" referredColumn="6E54DA9D-3AAD-D6E0-638F-CC4CDAEEB5C8"/>
+</associations>
+</Column>
+<Column name="isbn" id="3FA449EC-B50C-3641-6DD5-8DED0F432260">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>8E02E9EA-1901-A8D6-E711-171BFDFD7E73</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A8C24E8-BFC2-7777-4043-B3F84F967594" referredColumn="5656CADC-48BB-36BD-DAE7-4BF3AC9050C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69086D9C-9164-B94B-4C24-00A1F6B2231E" name="lineitem_pk">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>1E98F0D4-E87D-BF4F-806E-FC798546D209</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73BD65C4-8DDB-00F8-B6BC-BF5BC24881BB"/>
+<colUsage columnID="3FA449EC-B50C-3641-6DD5-8DED0F432260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="342A4273-185D-B7C1-8BDA-6C571FB92C02" name="lineitem_book_fk">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FA449EC-B50C-3641-6DD5-8DED0F432260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3604586F-6A00-77D1-B7C9-5DDAC1ADBB8C" name="lineitem_order_fk">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73BD65C4-8DDB-00F8-B6BC-BF5BC24881BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

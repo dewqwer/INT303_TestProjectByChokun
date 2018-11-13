@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="shipping" directorySegmentName="seg_0" id="9C5A1BDE-AAF7-D00D-0BD4-DD1D26A6A172">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="status" id="2938F766-9DC7-9CEF-E633-03A33CA0D7BD">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="shippingcost" id="5403A6CF-3A8D-B519-97C1-3DF91FE6384F">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="addressid" id="57034AA0-DD61-7B6A-9EAA-E8966A4BA070">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="shippingdate" id="637A9677-4A54-CB2E-074A-0089673106B2">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="orderid" id="A2BCB78A-7C21-3ADB-61E4-D23B9F2CD0A7">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="shippingid" id="B7099353-AFEC-9574-EF85-B47E69A6AB64">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="shipping_order_fk" id="7121D810-FC09-F282-731A-37F542B09CDC">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="shipping_address_fk" id="C9387F51-E46B-5604-DDA1-2D1D21F93B9C">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="shipping_pk" id="946F030D-A200-D446-370D-7005D0D52F8B">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

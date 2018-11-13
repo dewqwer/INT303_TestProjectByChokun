@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="DA397E3E-D4E2-4741-FF1A-1043D2EC61E0" name="read2meSQL" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

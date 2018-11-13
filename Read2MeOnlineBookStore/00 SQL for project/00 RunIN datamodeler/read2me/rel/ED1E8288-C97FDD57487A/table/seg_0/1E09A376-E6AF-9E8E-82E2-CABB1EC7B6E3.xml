@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E09A376-E6AF-9E8E-82E2-CABB1EC7B6E3" name="shipping">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>743259CE-298A-237E-4BA1-1DE4AECB0027</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="shippingid" id="FF98CD65-368E-F266-A83D-5F115EC2667F">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>F420BE13-8BF1-B1DA-6035-434103313669</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shippingcost" id="1848831D-1AAE-4272-472B-667108A0ECA6">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>80FF0069-800A-15D8-7DB1-FB2F67B27F52</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>56E23E0A-8902-4B2D-0883-919AF3CE073D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shippingdate" id="9192F24D-B5E9-78F5-E253-C8FD475CC887">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>A7A65F32-63B1-C945-8B5B-152A24F7C967</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C0FFF6E6-606E-9903-E69C-A9E42D5D79D3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="AFE8229F-A503-E319-2E41-102B10D837B9">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>AE1E2B1B-74ED-1681-12CC-F565628CA364</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_orderid" id="83456442-910E-782E-0560-EDBA6C00435E">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>C744727F-60B2-1E81-958B-498D80E11BD0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B674C14-DA4C-9494-3800-77F33C769CBE" referredColumn="46B4EC36-0F13-A5F6-FD46-571AB31FC3A2"/>
+</associations>
+</Column>
+<Column name="address_addressid" id="545BF4E8-F0FA-1EDC-3515-539C1BC2FE5C">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>95AC601B-0233-A140-0B5D-C7A4ED28F679</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEF56F2D-5E1C-5933-F1BE-D21871EF42AB" referredColumn="24B15B2F-D828-CD95-6507-D7E9EE864CDA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05191F0C-6BFA-AD16-49D0-95E218CECEC9" name="shipping_PK">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>87BFB113-1EC9-0893-C61D-74D6BE0B42DC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF98CD65-368E-F266-A83D-5F115EC2667F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="117348F2-5679-520F-7CD2-6C0A98021E7A" name="shipping_ORDER_orderid_UN">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-10 16:44:47 UTC</createdTime>
+<generatorID>5B687EF0-DAE4-D2DD-EF13-C002F790F2EA</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83456442-910E-782E-0560-EDBA6C00435E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4A3BE43-6B35-241E-015F-A9F6CF30B972" name="shipping_address_FK">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="545BF4E8-F0FA-1EDC-3515-539C1BC2FE5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DFF474D-A3E9-3214-D84F-A12A7988506F" name="shipping_ORDER_FK">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:31 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83456442-910E-782E-0560-EDBA6C00435E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

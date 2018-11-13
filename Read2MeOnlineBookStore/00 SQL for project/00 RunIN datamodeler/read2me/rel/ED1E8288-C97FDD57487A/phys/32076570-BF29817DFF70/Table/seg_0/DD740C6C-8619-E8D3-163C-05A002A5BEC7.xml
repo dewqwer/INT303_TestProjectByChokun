@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="lineitem" directorySegmentName="seg_0" id="DD740C6C-8619-E8D3-163C-05A002A5BEC7">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="book_isbn" id="7B903317-D63D-1C6D-AF71-9FFC4FF0A467">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="totalpricelineitem" id="802B4CF5-7392-5C49-AF29-8BC44E3B6386">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_orderid" id="8432FEBA-0F1A-0659-FD94-439E31B23C9F">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="quantity" id="EC4A2BFF-6B51-DA67-4532-46460AFD454A">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="lineitem_ORDER_FK" id="477FD64F-2626-7B50-2C0C-A71C0EE4C0A4">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="lineitem_book_FK" id="EE54B225-0988-F509-2D25-A5D5CDF0E2D2">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="lineitem_PK" id="7E218E9B-FCEF-715C-EA70-E82F30569D6D">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB9B9B27-AF16-1500-1B99-23E0ECF1AD44" name="customer">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>99A6AA2E-1EE5-A322-4052-1CD043EEBA53</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customerid" id="E71263C3-589F-A5E9-A5A9-DA7AB662C91A">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>160E90A3-3622-45B8-F8CA-1C6EF76D902F</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firstname" id="FC2EB633-22CF-D56A-CF7E-AB78DE4A3B0D">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>1DAFFDDA-C1B7-B165-E61F-3B041DD8F1FC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF579FDE-6362-8D38-0380-42D09E1A3003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastname" id="F0D93320-3C7F-7048-C999-EE3C081F60A4">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>5F097F4E-39FC-6F98-7C6C-8730A6087AD9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AF579FDE-6362-8D38-0380-42D09E1A3003</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phoneno" id="C7B09319-4256-1B77-F118-BC22DB198C03">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>1AB9B7F8-AC76-F551-75A7-A4A905F4C558</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5DCD307D-132E-9BC1-F827-EDC99CB5DAC1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="326160E8-4237-79B0-4556-9B3F2042BD72">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>08EB7FCB-1B6D-A75D-0947-750593B54AAF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6182A23C-1869-35CD-A737-84A6DC86606F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="B5F45798-9A28-65D8-E245-6DF88D81823D">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>BDAAA4F9-DDC3-23E6-8E08-C2429E346437</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4B78E96-D43F-4F7B-FF2A-C13F0624EE4D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26334919-2C71-A078-493F-5FBE6F2C659B" name="customer_pk">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>A0CFB44A-93E6-739D-89CB-F2860AF686DB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E71263C3-589F-A5E9-A5A9-DA7AB662C91A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CDC699F-C39C-57C1-83A3-FC11243E0C2A" name="customer_email_un">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>F0EBE436-7347-B19B-FA61-F37C15652C40</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="326160E8-4237-79B0-4556-9B3F2042BD72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

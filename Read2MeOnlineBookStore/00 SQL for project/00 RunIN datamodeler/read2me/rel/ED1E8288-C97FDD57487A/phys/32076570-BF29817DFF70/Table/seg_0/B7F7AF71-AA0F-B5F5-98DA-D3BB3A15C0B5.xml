@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDER" directorySegmentName="seg_0" id="B7F7AF71-AA0F-B5F5-98DA-D3BB3A15C0B5">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="orderid" id="46B4EC36-0F13-A5F6-FD46-571AB31FC3A2">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="orderstatus" id="64EB234B-1DBC-10A3-943F-C071EAF82B48">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ordereddate" id="80AB0603-302A-73AA-7BC2-25A1163AE6C9">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_customerid" id="DE34049C-83DC-0D8E-4A35-9C0CF6ED2B6A">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_customer_FK" id="95EE32A1-9465-4123-A4E1-308832B63109">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDER_PK" id="8D8FD6F8-BCA2-AE9A-C837-1AD2DFF5E3A2">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

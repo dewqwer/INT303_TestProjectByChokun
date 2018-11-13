@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="read2meSQL_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100 CHAR" id="3239F7A4-2360-D9EA-8729-386C5CA66226">
+         <createdBy>Dew2018</createdBy>
+         <createdTime>2018-11-08 04:22:31 UTC</createdTime>
+         <ownerDesignName>read2me</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100 CHAR</dataTypeSize>
+         <fileName>read2meSQL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="56E23E0A-8902-4B2D-0883-919AF3CE073D">
+         <createdBy>Dew2018</createdBy>
+         <createdTime>2018-11-08 04:22:31 UTC</createdTime>
+         <ownerDesignName>read2me</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>read2meSQL_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15 CHAR" id="5DCD307D-132E-9BC1-F827-EDC99CB5DAC1">
+         <createdBy>Dew2018</createdBy>
+         <createdTime>2018-11-08 04:22:31 UTC</createdTime>
+         <ownerDesignName>read2me</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>15 CHAR</dataTypeSize>
+         <fileName>read2meSQL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_60 CHAR" id="6182A23C-1869-35CD-A737-84A6DC86606F">
+         <createdBy>Dew2018</createdBy>
+         <createdTime>2018-11-08 04:22:31 UTC</createdTime>
+         <ownerDesignName>read2me</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>60 CHAR</dataTypeSize>
+         <fileName>read2meSQL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50 CHAR" id="940B1731-D547-B289-1E02-87DC16DAAD81">
+         <createdBy>Dew2018</createdBy>
+         <createdTime>2018-11-08 04:22:31 UTC</createdTime>
+         <ownerDesignName>read2me</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>50 CHAR</dataTypeSize>
+         <fileName>read2meSQL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_40 CHAR" id="AF579FDE-6362-8D38-0380-42D09E1A3003">
+         <createdBy>Dew2018</createdBy>
+         <createdTime>2018-11-08 04:22:31 UTC</createdTime>
+         <ownerDesignName>read2me</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>40 CHAR</dataTypeSize>
+         <fileName>read2meSQL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="C0FFF6E6-606E-9903-E69C-A9E42D5D79D3">
+         <createdBy>Dew2018</createdBy>
+         <createdTime>2018-11-08 04:22:31 UTC</createdTime>
+         <ownerDesignName>read2me</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>read2meSQL_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30 CHAR" id="D4B78E96-D43F-4F7B-FF2A-C13F0624EE4D">
+         <createdBy>Dew2018</createdBy>
+         <createdTime>2018-11-08 04:22:31 UTC</createdTime>
+         <ownerDesignName>read2me</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>30 CHAR</dataTypeSize>
+         <fileName>read2meSQL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20 CHAR" id="EFF0D11E-3B8D-BB97-6F8A-AD8A91F6DAE9">
+         <createdBy>Dew2018</createdBy>
+         <createdTime>2018-11-08 04:22:31 UTC</createdTime>
+         <ownerDesignName>read2me</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>20 CHAR</dataTypeSize>
+         <fileName>read2meSQL_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="address" directorySegmentName="seg_0" id="4113B6A9-7D74-585F-A2EB-7E67F501A021">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="customerid" id="1491CF27-D6F2-44D9-2AD9-A1FD8464C2F8">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="province" id="1E478D57-8BA4-7BB7-F14C-ADA91EDF9C49">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="district" id="33E092CF-9ED4-B9F4-7A34-8C9BFB4BBD5F">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="postcode" id="45154A59-0592-9566-6ED4-0482BB5B561C">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="addressno" id="6E621315-7B01-A5F5-F511-DCEA432375A9">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="subdistrict" id="77D77FD2-EF29-DE00-50AD-AD87A1A72B3B">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="alley" id="A5805DCB-C897-9509-2613-7046B74F3238">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="addressid" id="C8B741F3-EB87-CE67-7C28-8D98B1A212EC">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="street" id="E06073B2-84A0-33D6-22C8-067E8FFE8001">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="address_customer_fk" id="72DCD722-BCD2-9C9D-2EF4-021F1F260FDE">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="address_pk" id="E2F9F9E2-5BE2-978F-1028-4D5DDFC9D89A">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

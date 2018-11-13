@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4005E38-1FFC-F32D-2746-8D1A299C18B5" containerWithKeyObject="22F8F2B5-5DE7-E90A-2651-4269A4650C69" localFKIndex="DA97A738-BBF7-0C14-986D-4E83CE244C9B" name="payment_order_fk">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>BF7DB14C-40AF-6A7E-E102-CA339520ED11</importedID>
+<referredTableLongName>ORDER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D81621F6-91E3-75C9-EC3F-7764D6898454</referredTableID>
+<keyObject>CE504B82-BBB1-5AB6-C6F1-FFDD0C578C45</keyObject>
+<referredKeyID>CE504B82-BBB1-5AB6-C6F1-FFDD0C578C45</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>orderid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

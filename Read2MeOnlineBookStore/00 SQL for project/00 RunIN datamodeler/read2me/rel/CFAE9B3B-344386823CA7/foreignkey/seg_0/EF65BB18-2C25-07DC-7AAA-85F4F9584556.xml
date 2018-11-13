@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF65BB18-2C25-07DC-7AAA-85F4F9584556" containerWithKeyObject="78965A19-BE2B-ABBC-4E17-E008B4FA2CA2" localFKIndex="1E869C94-EC20-2843-3FCF-6755953125A2" name="productreview_book_fk">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>005F3E42-2267-07F7-6C0F-C767F64A835A</importedID>
+<referredTableLongName>book</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3A53CC1-8EC5-A776-49BB-DC91F8080424</referredTableID>
+<keyObject>DF4D2664-987D-43AA-6A20-50FE28B42844</keyObject>
+<referredKeyID>DF4D2664-987D-43AA-6A20-50FE28B42844</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>isbn</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

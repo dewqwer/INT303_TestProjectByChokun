@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE57CD6B-A032-1AA9-F75E-2F54A8A04A43" containerWithKeyObject="4113B6A9-7D74-585F-A2EB-7E67F501A021" localFKIndex="72DCD722-BCD2-9C9D-2EF4-021F1F260FDE" name="address_customer_fk">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>71EBB450-636D-4214-6FC1-87317BD2984E</importedID>
+<referredTableLongName>customer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CB9B9B27-AF16-1500-1B99-23E0ECF1AD44</referredTableID>
+<keyObject>26334919-2C71-A078-493F-5FBE6F2C659B</keyObject>
+<referredKeyID>26334919-2C71-A078-493F-5FBE6F2C659B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>customerid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

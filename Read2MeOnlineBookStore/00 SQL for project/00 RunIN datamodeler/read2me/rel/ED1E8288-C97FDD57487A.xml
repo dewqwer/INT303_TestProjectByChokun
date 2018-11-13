@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="read2meSQL" id="ED1E8288-6A05-9CC1-3733-C97FDD57487A" mainViewID="DA397E3E-D4E2-4741-FF1A-1043D2EC61E0">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:26 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>read2meSQL.ddl</fileName>
+<pathName>C:\Users\Dew2018\Desktop\60130500120\B.Sc.IT 2\INT303\ByMySelf\01_INT303_project\Read2MeOnlineBookStore\00 SQL for project</pathName>
+<dbType>9</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

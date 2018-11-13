@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="read2me" id="9B216A79-F4DD-D630-4B28-297BCDE15AF6" version="3.5">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:22:00 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9B216A79-F4DD-D630-4B28-297BCDE15AF6</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="09430F1E-9CF6-3DAF-673B-9A48A7D5EB97">
+<designStoragePath>E:\read2meSQL</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B739CE52-18C5-B56E-2BF6-09FC099E7509">
+<designStoragePath>E:\read2meSQL</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7E9E4DFE-5D7C-CD8C-AE45-D3EF5ED4717D">
+<designStoragePath>E:\read2meSQL</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

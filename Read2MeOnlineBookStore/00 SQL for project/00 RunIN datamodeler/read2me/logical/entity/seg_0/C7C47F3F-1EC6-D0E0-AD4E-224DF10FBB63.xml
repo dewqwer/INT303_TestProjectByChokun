@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7C47F3F-1EC6-D0E0-AD4E-224DF10FBB63" name="book">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>274EC031-25CB-0266-D817-5E6C951BA95C</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="isbn" id="658D52F5-A8B3-98E8-5989-949F7E1628B0">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>00DED357-D3A9-FA21-9FD8-C84008BB689B</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="D0A62B91-9935-9553-5C22-C75D065A59BE">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>FD470D9D-644D-CCB3-7751-7148CA08C16A</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author" id="F1A42D8E-773D-AA0E-ECD5-4EFB772E9470">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>E12EB3E9-5BA6-A366-297E-BF442D691A71</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="E3420463-3832-2DF8-988C-6401121AE2C8">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>A56A3DC6-F723-F3A2-C2BB-374AB8927971</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="publisher" id="0BAB2733-7D4B-AD51-B179-CDA217940269">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>FF4BDF0C-8480-868F-C313-5BF55BFF57F9</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="category" id="34860B6B-D18B-ACBC-1499-E1DD6308DFA3">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>055C0B01-9AE8-E182-2F28-22446BE59E7C</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unitpriceperone" id="674B4D83-AD40-D3AF-6F8B-D963C4ADB46F">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>AFD12F61-9E92-7CE9-A381-C1AD2CC30235</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salegroup" id="523D9371-65C8-BAB8-ACC1-29FC77E419EF">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>D31137B9-1512-23D8-5F4B-7911C06AFC7F</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE5981AB-2F62-47E2-11C8-6A71A0C5601F" name="book PK">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>5656248A-4197-DC92-1BAA-B898B6730961</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>658D52F5-A8B3-98E8-5989-949F7E1628B0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A621C740-2366-2EF1-115D-5C25DF82F769" name="book title UN">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>2CD3AE32-D599-D025-2486-4F06342B56A2</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>D0A62B91-9935-9553-5C22-C75D065A59BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

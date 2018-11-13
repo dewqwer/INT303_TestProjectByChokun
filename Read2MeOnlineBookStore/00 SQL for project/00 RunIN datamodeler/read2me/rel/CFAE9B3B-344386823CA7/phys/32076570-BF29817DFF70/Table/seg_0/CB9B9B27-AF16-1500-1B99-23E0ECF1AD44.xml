@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="customer" directorySegmentName="seg_0" id="CB9B9B27-AF16-1500-1B99-23E0ECF1AD44">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="email" id="326160E8-4237-79B0-4556-9B3F2042BD72">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="password" id="B5F45798-9A28-65D8-E245-6DF88D81823D">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phoneno" id="C7B09319-4256-1B77-F118-BC22DB198C03">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customerid" id="E71263C3-589F-A5E9-A5A9-DA7AB662C91A">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="lastname" id="F0D93320-3C7F-7048-C999-EE3C081F60A4">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="firstname" id="FC2EB633-22CF-D56A-CF7E-AB78DE4A3B0D">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="customer_pk" id="26334919-2C71-A078-493F-5FBE6F2C659B">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="customer_email_un" id="6CDC699F-C39C-57C1-83A3-FC11243E0C2A">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:32 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

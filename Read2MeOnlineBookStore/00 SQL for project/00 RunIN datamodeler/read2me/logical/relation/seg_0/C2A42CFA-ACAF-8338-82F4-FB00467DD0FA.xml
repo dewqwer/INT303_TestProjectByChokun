@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="lineitem_book_FK" directorySegmentName="seg_0" id="C2A42CFA-ACAF-8338-82F4-FB00467DD0FA">
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 05:00:20 UTC</createdTime>
+<generatorID>C5EED38D-EA46-2529-C414-73586E76AE0E</generatorID>
+<ownerDesignName>read2me</ownerDesignName>
+<engineerTo>
+<item key="ED1E8288-6A05-9CC1-3733-C97FDD57487A" value="true"/>
+<item key="43477ABB-C8DC-A82F-1C57-C947508C8EB0" value="true"/>
+<item key="CFAE9B3B-58B2-F3D9-38B5-344386823CA7" value="true"/>
+</engineerTo>
+<sourcePk>AE5981AB-2F62-47E2-11C8-6A71A0C5601F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C7C47F3F-1EC6-D0E0-AD4E-224DF10FBB63</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6785BA85-FA5E-3B0C-B445-5842C1C4B433</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

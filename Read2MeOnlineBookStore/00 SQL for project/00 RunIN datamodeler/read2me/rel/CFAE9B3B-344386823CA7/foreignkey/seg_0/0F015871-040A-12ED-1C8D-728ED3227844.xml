@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0F015871-040A-12ED-1C8D-728ED3227844" containerWithKeyObject="6C5926F6-7EB5-AC09-C688-73D3A8E1CD38" localFKIndex="3604586F-6A00-77D1-B7C9-5DDAC1ADBB8C" name="lineitem_order_fk">
+<sourceDDLFile>read2meSQL.ddl</sourceDDLFile>
+<createdBy>Dew2018</createdBy>
+<createdTime>2018-11-08 04:55:38 UTC</createdTime>
+<ownerDesignName>read2me</ownerDesignName>
+<importedID>12663F70-F152-C04F-4E63-EA3F47382C7C</importedID>
+<referredTableLongName>ORDER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D81621F6-91E3-75C9-EC3F-7764D6898454</referredTableID>
+<keyObject>CE504B82-BBB1-5AB6-C6F1-FFDD0C578C45</keyObject>
+<referredKeyID>CE504B82-BBB1-5AB6-C6F1-FFDD0C578C45</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>orderid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
